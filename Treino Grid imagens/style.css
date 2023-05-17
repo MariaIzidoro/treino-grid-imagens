@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(245, 187, 146)
+}
+header {
+    font-size: 40px;
+    color: rgb(148, 16, 16);
+    background: cornsilk;
+    text-align: center;
+}
+.container{
+    display: grid;
+    margin: 50px;
+    margin-left: 100px;
+    grid-template-columns: 400px 500px;
+    grid-template-rows: 300px 400px 250px 250px;
+    gap: 50px 100px;
+    justify-items: center;
+}
+
+img {
+    border: 2px rgb(148, 16, 16) solid;
+}
